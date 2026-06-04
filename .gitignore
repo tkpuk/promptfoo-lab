@@ -1,0 +1,12 @@
+# node / promptfoo artifacts
+node_modules
+dist
+.promptfoo/
+promptfoo-results
+
+# environment secrets
+.env
+.env.local
+
+# OS files
+.DS_Store
