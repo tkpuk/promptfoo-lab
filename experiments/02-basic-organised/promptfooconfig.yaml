@@ -1,0 +1,17 @@
+description: '02-basic-organised: A basic configuration with multiple prompts and tests, organised for readability.'
+
+providers: file://providers.yaml
+
+prompts: file://prompts.txt
+
+# NOT WORKING: .txt works, but .yaml and .js don't for some reason. Maybe to do with my PromptFoo version.
+# prompts:
+#   - file://prompts.yaml
+
+# prompts: file://prompts.yaml
+
+# prompts: file://prompts.js
+
+defaultTest: file://defaultTest.yaml
+
+tests: file://tests.yaml

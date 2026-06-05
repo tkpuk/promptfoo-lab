@@ -2,7 +2,7 @@
 
 # Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
 
-description: 'My eval'
+description: '01-basic: A basic configuration with multiple prompts and tests.'
 
 prompts:
   - 'Write a tweet about {{topic}}'

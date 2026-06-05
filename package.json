@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "basic": "npx promptfoo eval --no-cache -c experiments/01-basic/promptfooconfig.yaml",
+    "basic-organised": "npx promptfoo eval --no-cache -c experiments/02-basic-organised/promptfooconfig.yaml",
+    "view": "npx promptfoo view --yes",
+    "cache-clear": "npx promptfoo cache clear",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

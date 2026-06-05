@@ -1,0 +1,2 @@
+- id: ollama:chat:llama3.1:8b
+- id: ollama:chat:mistral:7b

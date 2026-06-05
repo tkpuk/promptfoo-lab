@@ -1,0 +1,9 @@
+- id: tweet-basic
+  label: Basic tweet
+  raw: |
+    Write a tweet about {{topic}}
+
+- id: tweet-funny
+  label: Funny tweet
+  raw: |
+    Write a concise, funny tweet about {{topic}}
